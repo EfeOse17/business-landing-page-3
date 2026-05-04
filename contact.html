@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Jason UI is a corporate and business site template built with HTML and CSS. It is a modern and responsive design that can be used for any type of business website.">
+    <meta name="keywords" content="Jason UI, corporate site template, business site template, HTML, CSS, responsive design, modern design">
+    <meta name="author" content="Jason UI Contact Page">
+
+    <link rel="stylesheet" href="css/contact.css" type="text/css">
+
+    <title>Contact Page</title>
+</head>
+<body>
+    <main>
+        <div class="contact-container">
+
+            <!-- Contact Form -->
+
+            <section class="contact-form">
+                <div class="contact-form-header">
+                    <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" height="40" width="40" viewBox="0 0 512 512"><path fill="white" d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512zM135 239l80-80c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-39 39 150.1 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-150.1 0 39 39c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-80-80c-9.4-9.4-9.4-24.6 0-33.9z"/></svg></a>
+                    <span><h2>Send us a message</h2></span>
+                </div>
+
+                <!--Form-->
+
+                        <form action="submit_form.php" method="get">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Name" required>
+
+                                <input type="email" name="email" placeholder="Email" required>
+
+                                <select class="career-select" id="career" name="career">
+                                    <option value=" ">Select a career</option>
+                                    <option value="Software Engineer">Software Engineer</option>
+                                    <option value="Product Manager">Product Manager</option>
+                                    <option value="Designer">Designer</option>
+                                    <option value="Sales Associate">Sales Associate</option>
+                                    <option value="Customer Service Representative">Customer Service Representative</option>
+                                    <option value="web developer">Web developer</option>
+                                    <option value="others">Others</option>
+                                </select>
+
+                                    <textarea rows="5" cols="60" name="message" placeholder="Message" required></textarea>
+
+                                    <button id="submit-btn" type="submit">Send Message</button>
+                            </div>
+
+                        </form>
+            </section>
+
+            <!-- Contact Information -->
+
+            <section class="contact-info">
+                <h2 class="contact-info-title">Contact Us</h2>
+                <p class="contact-info-description">We're open for any business opportunities!</p>
+
+                <p class="address">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="15" viewBox="0 0 384 512"><path fill="rgb(80, 40, 196)" d="M0 188.6C0 84.4 86 0 192 0S384 84.4 384 188.6c0 119.3-120.2 262.3-170.4 316.8-11.8 12.8-31.5 12.8-43.3 0-50.2-54.5-170.4-197.5-170.4-316.8zM192 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128z"/></svg><strong>Address:</strong> 198 West 21th Street, Suite 721 New York, NY 10016</p>
+
+                <p class="phone">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="22.5" viewBox="0 0 576 512"><path fill="rgb(80, 40, 196)" d="M344-32c128.1 0 232 103.9 232 232 0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM320 88c0-13.3 10.7-24 24-24 75.1 0 136 60.9 136 136 0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88-13.3 0-24-10.7-24-24zM144.1 1.4c19.7-5.4 40.3 4.7 48.1 23.5l40.5 97.3c6.9 16.5 2.1 35.6-11.8 47l-44.1 36.1c32.5 71.6 89 130 159.3 164.9L374.7 323c11.3-13.9 30.4-18.6 47-11.8L519 351.8c18.8 7.8 28.9 28.4 23.5 48.1l-1.5 5.5C523.4 470.1 460.9 525.3 384.6 509.2 209.6 472.1 71.9 334.4 34.8 159.4 18.7 83.1 73.9 20.6 138.5 2.9l5.5-1.5z"/></svg><strong>Phone:</strong> +234(803) 456-7890</p>
+
+                <p class="email">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512"><path fill="rgb(80, 40, 196)" d="M64.4 175.8L256 33.9 447.6 175.8 289.5 293c-9.7 7.2-21.4 11-33.5 11s-23.8-3.9-33.5-11L64.4 175.8zM256-32c-12.1 0-23.8 3.9-33.5 11L25.9 124.7C9.6 136.8 0 155.8 0 176.1L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-239.9c0-20.3-9.6-39.4-25.9-51.4L289.5-21c-9.7-7.2-21.4-11-33.5-11z"/></svg><strong>Email:</strong> info@company.com</p>
+
+                <p class="website">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512"><path fill="rgb(80, 40, 196)" d="M55.7 199.7l30.9 30.9c6 6 14.1 9.4 22.6 9.4l21.5 0c8.5 0 16.6 3.4 22.6 9.4l29.3 29.3c6 6 9.4 14.1 9.4 22.6l0 37.5c0 8.5 3.4 16.6 9.4 22.6l13.3 13.3c6 6 9.4 14.1 9.4 22.6l0 18.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-2.7c0-8.5 3.4-16.6 9.4-22.6l45.3-45.3c6-6 9.4-14.1 9.4-22.6l0-34.7c0-17.7-14.3-32-32-32l-82.7 0c-8.5 0-16.6-3.4-22.6-9.4l-16-16c-4.2-4.2-6.6-10-6.6-16 0-12.5 10.1-22.6 22.6-22.6l34.7 0c12.5 0 22.6-10.1 22.6-22.6 0-6-2.4-11.8-6.6-16l-19.7-19.7C242 130 240 125.1 240 120s2-10 5.7-13.7l17.3-17.3c5.8-5.8 9.1-13.7 9.1-21.9 0-7.2-2.4-13.7-6.4-18.9-3.2-.1-6.4-.2-9.6-.2-95.4 0-175.7 64.2-200.3 151.7zM464 256c0-34.6-8.4-67.2-23.4-95.8-6.4 .9-12.7 3.9-17.9 9.1l-13.4 13.4c-6 6-9.4 14.1-9.4 22.6l0 34.7c0 17.7 14.3 32 32 32l24.1 0c2.5 0 5-.3 7.3-.8 .4-5 .5-10.1 .5-15.2zM0 256a256 256 0 1 1 512 0 256 256 0 1 1 -512 0z"/></svg><strong>Website:</strong> <a href="https://Jason UI Comapny.com">https://JasonUICompany.com</a></p>
+
+            </section>
+        </div>
+    </main>
+    
+</body>
+</html>
